@@ -1,0 +1,42 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headText {
+  text-align: center;
+}
+
+.cardText {
+  text-align: center;
+}
+
+.przycisk {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.buttonDiv{
+  display: flex;
+  gap: 10px;
+}
+
+.red{
+  color: red;
+}
