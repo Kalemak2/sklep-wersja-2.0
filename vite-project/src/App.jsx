@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <h1 className="headText">Sklep u cioci Basi</h1>
+      <h1 className="headerText">Sklep u cioci Basi</h1>
       <Sklep data={products}/>
     </>
   )

@@ -1,11 +1,11 @@
-.cardContainer {
+.shopContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
-.card {
+.productCard {
   border: 2px solid black;
   padding: 10px;
   margin: 10px;
@@ -17,26 +17,26 @@
   justify-content: space-between;
 }
 
-.headText {
+.headerText {
   text-align: center;
 }
 
-.cardText {
+.productText {
   text-align: center;
 }
 
-.przycisk {
+.button {
   background-color: blue;
   color: white;
   font-weight: bold;
   border: 1px solid black;
 }
 
-.buttonDiv{
+.buttonGroup {
   display: flex;
   gap: 10px;
 }
 
-.red{
+.outOfStock {
   color: red;
 }
